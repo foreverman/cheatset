@@ -1,0 +1,3 @@
+基于cheatset(https://github.com/Kapeli/cheatset).
+生成Dash docset: cheatset generate sample.rb
+装载Dash docset: open sample.docset
