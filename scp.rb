@@ -37,7 +37,7 @@ cheatsheet do
   category do
     id "服务器到服务器" 
     entry do
-      command "scp your_username@rh1.edu:/some/remote/directory/foobar.txt your_username@rh2.edu:/some/remote/directory/ "
+      command "scp -3 your_username@rh1.edu:/some/remote/directory/foobar.txt your_username@rh2.edu:/some/remote/directory/ "
       notes "将文件从一个远程服务器拷贝到另一个远程服务器"
     end
   end
